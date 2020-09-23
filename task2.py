@@ -11,3 +11,8 @@
 # volume
 #
 # test output radius of 3 should give volume of 84.8230016469
+import math
+radius=input("Enter radius of Sphere")
+r=int(radius)
+result=4/3*math.pi*math.pow(r,3)
+print(result)
