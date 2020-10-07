@@ -8,7 +8,7 @@
 #
 # Sample output:
 # Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
-name=input("Enter your name")
-email=input("Enter your email")
+name=input(("Enter your name")).strip()
+email=input(("Enter your email")).strip()
 result=("Your name is " + name + ", and your email is "+ email)
 print(result)
