@@ -10,5 +10,5 @@
 # Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 name=input("Enter your name")
 email=input("Enter your email")
-result=("Your name is " + name + " and Your email is "+ email)
+result=("Your name is " + name + ", and your email is "+ email)
 print(result)
